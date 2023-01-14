@@ -1,11 +1,8 @@
 #demo {
-    text-align: center;
-    font-family: 'Quicksand', sans-serif; 
     font-size: 4.5rem;
 }
   
 .sign {
-    font-family: 'Quicksand', sans-serif; 
     font-size: .7rem;
     text-align: center;
 } 
@@ -22,6 +19,7 @@ img {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 90px;
     place-items: center;
+    font-family: 'Quicksand', sans-serif; 
 }
 
 a:hover {
