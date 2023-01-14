@@ -2,16 +2,15 @@
     font-size: 4.5rem;
     text-align: left;
 }
-  
+
 .sign {
     font-size: .6rem;
     text-align: center;
-    margin-bottom: 0.2rem;
+    margin-bottom: 0.5rem;
 } 
 
 img {
     max-height: 18px;
-    margin-bottom: -0.2rem;
 }
   
 #container {
@@ -25,9 +24,10 @@ img {
 }
 
 a:hover {
-    background-color: rgba(44, 44, 44, .1);
-    border-radius: 100px;
-    transition: all 0.2s ease-in-out;
+    display: inline;
+    content: url(assets/like.png);
+    max-height: 18px;
+    margin-left: 15px;
 }
 
 @media (max-width: 768px) {
