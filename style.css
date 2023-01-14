@@ -1,43 +1,32 @@
-* {
-    margin: 0;
-    padding: 0;
-  }
-  
-  html, body {
-    height: 100%;
-    width: 100vw;
-    
-  }
-  
-  #demo {
+#demo {
+    text-align: center;
     font-family: 'Quicksand', sans-serif; 
-    font-size: 4rem;
-  }
+    font-size: 4.5rem;
+}
   
-  .sign {
-    text-align: center; 
+.sign {
     font-family: 'Quicksand', sans-serif; 
     font-size: .7rem;
-     
-  } 
+    text-align: center;
+} 
 
-  img {
+img {
     max-height: 18px;
     margin-bottom: -0.3rem;
-  }
+}
   
-  #container {
+#container {
     width: 100vw;
     height: 100vh;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 90px;
     place-items: center;
-  }
+}
 
 a:hover {
     border-bottom: 1px solid black
-    }
+}
 
 @media (max-width: 768px) {
 #demo {
